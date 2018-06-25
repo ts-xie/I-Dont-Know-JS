@@ -80,3 +80,16 @@ function car(){
 
 let c = new car;
 ```
+
+### [!!value](https://stackoverflow.com/questions/784929/what-is-the-not-not-operator-in-javascript)
+Convert `value` to Boolean type.
+```
+!!null         // false
+!!NaN          // false
+!!undefined    // false
+!!''           // false
+!!{}           // true
+!![]           // true
+!!function(){} // true
+```
+
