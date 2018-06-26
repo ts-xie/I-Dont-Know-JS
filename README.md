@@ -93,3 +93,10 @@ Convert `value` to Boolean type.
 !!function(){} // true
 ```
 
+### [!function(){}()](https://stackoverflow.com/questions/3755606/what-does-the-exclamation-mark-do-before-the-function)
+Functionally same as self invocation function.
+```
+!function(){}(); // returns true
+// same as
+(function(){})(); // returns undefined
+```
